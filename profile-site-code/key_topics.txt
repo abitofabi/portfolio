@@ -1,0 +1,40 @@
+Spark Basics to Cover:
+What is Apache Spark? (In-memory distributed processing engine)
+
+Core components: Driver, Executors, RDDs, DataFrames, Spark SQL
+
+Spark architecture: Master, workers, cluster manager (standalone, YARN, Mesos)
+
+Basic transformations vs actions (map, filter, reduceByKey, collect)
+
+How Spark handles parallelism and fault tolerance
+
+Common Spark use cases in ETL and analytics pipelines
+
+Basics of partitioning, shuffling, and how to optimize (to talk about handling data skew, etc.)
+
+Quick Learning Resources:
+Databricks free training: Getting Started with Apache Spark
+
+Official Apache Spark docs: https://spark.apache.org/docs/latest/
+
+YouTube intro videos: Search “Apache Spark explained” for quick overviews
+
+Hands-on: Try a simple PySpark notebook (Google Colab has free runtimes) to practice transformations and actions
+
+Leverage Spark SQL: If you know SQL, learn how Spark SQL extends it for big data queries
+
+2️⃣ Other Key Topics to Brush Up for This Role
+| Topic                                | Why It Matters                                             | Suggested Prep                                                                                     |
+| ------------------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **AWS Core Services**                | Must know EC2, S3, RDS, Lambda, IAM, VPC, CloudFormation   | Review AWS documentation, Maarek course sections on compute, storage, networking, infra automation |
+| **Data Engineering Concepts**        | Understand ETL vs ELT, data lakes, pipelines, data quality | Practice building sample ETL pipelines, learn Glue basics, and pipeline orchestration              |
+| **Distributed Data Processing**      | Spark, Hadoop, Kafka, Presto fundamentals                  | Basic architecture, use cases, when to choose what                                                 |
+| **SQL & Python**                     | Core for data manipulation and automation                  | Write SQL queries (window functions, joins), Python scripting (pandas, boto3 for AWS)              |
+| **Security & Compliance**            | GDPR, HIPAA, data encryption, IAM best practices           | Understand shared responsibility, encryption options, AWS security tools                           |
+| **Cloud Architecture & Design**      | High availability, scalability, fault tolerance            | Learn Well-Architected Framework, multi-AZ designs, scaling strategies                             |
+| **Generative AI Basics**             | If your resume mentions it, know key tools like LangChain  | Understand vector databases, prompt engineering basics, LLM usage scenarios                        |
+| **DevOps/Automation**                | Terraform, CloudFormation, CI/CD basics                    | Basic IaC concepts, secrets management, monitoring Glue jobs                                       |
+| **Soft Skills / Customer Scenarios** | Explaining tech simply, consulting mindset                 | Practice clear, jargon-free explanations tailored for non-technical audiences                      |
+
+
