@@ -325,6 +325,14 @@ A: S3 is like a virtual file cabinet—great for storing lots of files, document
 ### Q: “Why would I use Glue when I already have SQL-based ETL tools?”  
 A: Glue is serverless, cost-efficient, and integrated with AWS-native services. It supports Python (PySpark) and dynamic frames, is easier to scale, and removes infrastructure overhead. It’s ideal for data lakes, real-time transformations, and governance via the Glue Catalog and Lake Formation.
 
+| Tool                | Best For                                | Key Benefits                                            | When *Not* To Use                                    |
+| ------------------- | --------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------- |
+| **AWS Glue**        | ETL jobs, data cataloging               | Serverless, built-in scheduler, native data catalog     | Not ideal for streaming or large-scale ML            |
+| **Amazon EMR**      | Big data batch & stream (Spark, Hadoop) | Flexible clusters, supports Spark/Hadoop/Flink          | More ops-heavy, pay-per-instance                     |
+| **Amazon Athena**   | Ad-hoc SQL on S3                        | Serverless, fast for small/medium queries               | Slower for large joins; can't write transformations  |
+| **Amazon Redshift** | Data warehousing, BI queries            | Fast columnar store, scalable, integrates with BI tools | Less suited for semi-structured or data lake storage |
+| **Lake Formation**  | Secure data lake permissions            | Fine-grained access, central catalog for Glue & Athena  | Doesn’t replace data processing tools                |
+
 
 ## 🎯 Final Tips
 
