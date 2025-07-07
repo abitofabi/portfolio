@@ -310,6 +310,21 @@ A: AWS offers many serverless and managed options like Glue, Athena, and QuickSi
 ### Q: “We’re in healthcare/finance—can AWS meet our compliance needs?”  
 A: Absolutely. AWS complies with HIPAA, GDPR, SOC2, PCI, and more. We can enforce encryption, access controls, and audit trails. Services like Macie and Config help detect sensitive data and ensure continuous compliance. We can also help implement necessary governance guardrails.
 
+
+
+| Service            | Purpose                                    | Quick Explanation                              |
+| ------------------ | ------------------------------------------ | ---------------------------------------------- |
+| **EC2**            | Virtual servers                            | Rent virtual machines to run apps or services  |
+| **S3**             | Object storage                             | Store and retrieve any amount of data securely |
+| **RDS**            | Managed relational databases               | Managed SQL databases like MySQL, PostgreSQL   |
+| **Lambda**         | Serverless compute                         | Run code without managing servers              |
+| **IAM**            | Identity and Access Management             | Manage user permissions and security           |
+| **VPC**            | Virtual Private Cloud                      | Isolated network environment for AWS resources |
+| **CloudFormation** | Infrastructure as Code                     | Automate provisioning of AWS resources         |
+| **Glue**           | Serverless ETL service                     | Prepare and load data for analytics            |
+| **Redshift**       | Data warehousing                           | Fast, fully managed data warehouse             |
+| **Athena**         | Serverless interactive query service on S3 | Run SQL queries on data stored in S3           |
+
 ---
 
 ### Q: “What if our data volume grows 10x in 2 years?”  
